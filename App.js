@@ -28,5 +28,19 @@ import RegisterScreen from "./app/screens/RegisterScreen";
 import ListingEditScreen from "./app/screens/ListingEditScreen";
 
 export default function App() {
-  return <ListingEditScreen />;
+  return (
+    <MessagesScreen />
+    /* <Screen>
+      <ListItem
+        title="T1"
+        subTitle="D1"
+        image={require("./app/assets/mosh.jpg")}
+      />
+      <ListItem
+        title="T2"
+        subTitle="D2"
+        image={require("./app/assets/mosh.jpg")}
+      />
+    </Screen>*/
+  );
 }
